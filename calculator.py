@@ -4,6 +4,8 @@ print("2.subtraction")
 print("3.multiplication")
 print("4.division")
 a = input("Enter choice (1/2/3/4):")
+if a > '4':
+ print("invalide input")
 
 
 
@@ -32,4 +34,3 @@ elif a == '4':
     print(x,"/",y,"=", devide(x, y))
 else:
     print("Invalid input")
-
